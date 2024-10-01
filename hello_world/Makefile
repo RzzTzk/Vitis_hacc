@@ -23,7 +23,7 @@ XF_PROJ_ROOT = $(shell readlink -f $(COMMON_REPO))
 
 ########################## Checking if PLATFORM in allowlist #######################
 PLATFORM_BLOCKLIST += nodma 
-PLATFORM ?= xilinx_u280_gen3x16_xdma_1_202211_1
+PLATFORM ?= xilinx_u280_xdma_201920_3
 
 HOST_ARCH := x86
 
